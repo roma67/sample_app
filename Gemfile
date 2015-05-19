@@ -20,7 +20,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'faker'
-
+gem 'arel'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -55,5 +55,6 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
-

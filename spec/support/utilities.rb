@@ -18,4 +18,5 @@ def full_title(page_title)
     fill_in "Password", with: user.password
     click_button "Sign in"
   end
+  end
 end
