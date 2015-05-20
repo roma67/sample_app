@@ -51,7 +51,7 @@ GEM
     bootstrap-will_paginate (0.0.9)
       will_paginate
     builder (3.2.2)
-    byebug (4.0.5)
+    byebug (5.0.0)
       columnize (= 0.9.0)
     capybara (2.4.4)
       mime-types (>= 1.16)
@@ -153,6 +153,7 @@ GEM
     rspec-expectations (3.2.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
+    rspec-its (0.0.1.pre)
     rspec-mocks (3.2.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
@@ -227,6 +228,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.1)
+  rspec-its (~> 0.0.1.pre)
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
